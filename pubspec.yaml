@@ -30,6 +30,8 @@ dependencies:
   cupertino_icons: ^1.0.0
   google_fonts: ^1.1.2
   lottie: ^0.7.0+1
+  shimmer: ^1.1.2
+  animated_card: ^1.0.0+8
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +56,7 @@ flutter:
     - assets/images/logo_creator4all.png
     - assets/images/background.jpg
     - assets/animations/animation_home.json
+    - assets/animations/loading.json
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

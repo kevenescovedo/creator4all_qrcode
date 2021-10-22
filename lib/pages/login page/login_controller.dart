@@ -47,7 +47,7 @@ class LoginController {
             color: Colors.red, text: map['mensagem'], globalKey: keyScaffold);
       } else {
         User userloged = User.fromMap(map['usuario']);
-        Navigator.pushNamed(context, "/home", arguments: userloged);
+        Navigator.pushReplacementNamed(context, "/home", arguments: userloged);
       }
     }
   }

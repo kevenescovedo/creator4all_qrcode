@@ -12,4 +12,17 @@ class Api {
     print('Response body: ${response.body}');
     return jsonDecode(utf8.decode(response.bodyBytes));
   }
+
+  getTurmas(String token) async {
+    String urlGetTurmas = urlBase + "/projeto/pt-br/buscar/grupos/professor";
+    var response = await http.get(urlGetTurmas, headers: {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json',
+      'Authorization': 'Bearer $token',
+    });
+    print("turmasssssssssssssssssssssssssssssssssssss");
+    print('Response status: ${response.statusCode}');
+    print('Response body: ${response.body}');
+    return jsonDecode(utf8.decode(response.bodyBytes));
+  }
 }

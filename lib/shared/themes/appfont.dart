@@ -35,7 +35,7 @@ class AppFont {
     fontSize: 15,
     color: Colors.white,
   );
-   static final TextStyle fontOla = GoogleFonts.poppins(
+  static final TextStyle fontOla = GoogleFonts.poppins(
     fontSize: 18,
     color: Colors.white,
   );
@@ -47,6 +47,12 @@ class AppFont {
     fontSize: 13,
     color: Colors.white,
   );
-
-  
+  static final TextStyle fontTextTurma = GoogleFonts.poppins(
+    fontSize: 13,
+    color: Colors.black,
+  );
+  static final TextStyle fontRede = GoogleFonts.poppins(
+    fontSize: 11,
+    color: Colors.grey,
+  );
 }
